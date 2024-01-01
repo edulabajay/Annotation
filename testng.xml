@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.beforeannotation.TestAnnotationBeforeMethod"/>
+      <class name="com.beforeannotation.TestAnnotationBeforeTest"/>
+      <class name="com.beforeannotation.TestAnnotationBeforeSuite"/>
+      <class name="com.beforeannotation.TestAnnotationBeforeClass"/>
+      <class name="com.beforeannotation.Navigatationmethod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
